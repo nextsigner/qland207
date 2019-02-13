@@ -535,7 +535,7 @@ Item {
             x4.opacity=app.lnl(66, 95)==='activo'?1.0:0.0
 
             x5.opacity=app.lnl(95, 126)==='activo'?1.0:0.0
-            txt2.text=app.lnl(95, 110)==='activo'?'import "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/funciones.js" as MiJS"':'import "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/Misfunciones.js" as MiJS //NO EXISTE!'
+            txt2.text=app.lnl(95, 110)==='activo'?'import "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/qland207/funciones.js" as MiJS"':'import "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/qland207/Misfunciones.js" as MiJS //NO EXISTE!'
 
 
             x6.opacity=app.lnl(126, 216)==='activo'?1.0:0.0
