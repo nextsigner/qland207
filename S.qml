@@ -236,7 +236,7 @@ Item {
         }
         Text{
             id:txtRutaJS
-            text:'<b>2) Archivo JavaScript Existente:</b><br>'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/funciones.js'
+            text:'<b>2) Archivo JavaScript Existente:</b><br>'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/qland207/funciones.js'
             width: r.width*0.8
             wrapMode: Text.WrapAnywhere
             anchors.horizontalCenter: parent.horizontalCenter
@@ -305,7 +305,7 @@ Item {
             id: txt2
             width: r.width*0.9
             wrapMode: Text.WrapAnywhere
-            text:'import "../../funciones.js" as MiJS'
+            text:'import "../../qland207/funciones.js" as MiJS'
             font.pixelSize: app.fs
             color: app.c4
             textFormat: Text.RichText
@@ -566,8 +566,8 @@ En cualquiera de los casos puedes editar el còdigo. Intenta reparar el error de
         console.log('Este es LogView.qml!')
 
 
-        x6.ac.push('import QtQuick 2.0\nimport "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/funciones.js" as MiJS\nRectangle{\n    width:50\n    height:100\n    color:\'red\'\n}')
-        x6.ac.push('import QtQuick 2.0\nimport "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/Misfunciones.js" as MiJS\nRectangle{\n    width:10\n    height:70\n    color:\'blue\'\n}')
+        x6.ac.push('import QtQuick 2.0\nimport "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/qland207/funciones.js" as MiJS\nRectangle{\n    width:50\n    height:100\n    color:\'red\'\n}')
+        x6.ac.push('import QtQuick 2.0\nimport "'+appsDir+'/qmlandia/'+xP.am[app.mod]+'/'+xP.ars[app.s]+'/qland207/Misfunciones.js" as MiJS\nRectangle{\n    width:10\n    height:70\n    color:\'blue\'\n}')
         ti1.text=x6.ac[0]
     }
 }
